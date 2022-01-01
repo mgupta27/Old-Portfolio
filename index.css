@@ -5,7 +5,7 @@
 .first-name{
   font-family: 'Roboto Slab', serif;
   font-size: 72px;
-  color: #000080;
+  color: #006400;
   margin-left: 21.25%;
   /* margin-left: 270px; */
   margin-right: 765px;
@@ -14,7 +14,7 @@
 .last-name{
   font-family: 'Roboto Slab', serif;
   font-size: 72px;
-  color: #800000;
+  color: #8b4513;
   margin-left: 38.5%;
   /* margin-left: 494px; */
   margin-top: -169px;
@@ -39,18 +39,18 @@
   margin-top: -7.5%;
 }
 
+.text{
+  font-family: 'Source Code Pro', monospace;
+  margin-left: 20.5%;
+  /* margin-left: 260px; */
+}
+
 h1 {
   font-family: 'Roboto Slab';
   font-size: 30px;
   margin-left: 20.5%;
   /* margin-left: 260px; */
   margin-top: 75px;
-}
-
-.text{
-  font-family: 'Source Code Pro', monospace;
-  margin-left: 20.5%;
-  /* margin-left: 260px; */
 }
 
 ul{

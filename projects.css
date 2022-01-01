@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
 
 .first-name{
   font-family: 'Roboto Slab', serif;
   font-size: 72px;
-  color: #000080;
+  color: #006400;
   margin-left: 21.25%;
   /* margin-left: 270px; */
   margin-right: 765px;
@@ -14,8 +15,18 @@
 .last-name{
   font-family: 'Roboto Slab', serif;
   font-size: 72px;
-  color: #800000;
+  color: #8b4513;
   margin-left: 38.5%;
+  /* margin-left: 494px; */
+  margin-top: -169px;
+  /* margin-right: 800px; */
+}
+
+.divider{
+  font-family: 'Roboto Slab', serif;
+  font-size: 72px;
+  color: #000000;
+  margin-left: 55.5%;
   /* margin-left: 494px; */
   margin-top: -169px;
   /* margin-right: 800px; */
@@ -24,8 +35,8 @@
 .list-item-name{
   font-family: 'Roboto Slab', serif;
   font-size: 72px;
-  color: #000000;
-  margin-left: 56.5%;
+  color: #0077be;
+  margin-left: 57.5%;
   /* margin-left: 494px; */
   margin-top: -13.1%;
   /* margin-right: 800px; */
@@ -37,6 +48,65 @@
   margin-left: 21.75%;
   /* margin-left: 278px; */
   margin-top: -5%;
+}
+
+.text{
+  font-family: 'Source Code Pro', monospace;
+  margin-left: 5.5%;
+  /* margin-left: 260px; */
+  text-align: center;
+}
+
+.project-box{
+  background-color: white;
+  border-radius: 11px;
+  border: 2px solid whitesmoke;
+  height: 32.5em;
+  width: 16em;
+}
+
+.image-box{
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid black;
+  height: 12em;
+  margin-top: 0.25em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+
+.project-title{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  margin-top: 15px;
+}
+
+.project-title a:hover{
+  color: blue;
+}
+
+.project-heading{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12.5px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.project-text{
+  font-family: 'Hind', sans-serif;
+  font-size: 12.5px;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h1 {
+  font-family: 'Roboto Slab';
+  font-size: 30px;
+  margin-left: 45.5%;
+  /* margin-left: 260px; */
+  margin-top: 0%;
 }
 
 ul{
@@ -71,4 +141,26 @@ a:hover{
 
 body {
   background-color: white;
+}
+
+table{
+  margin-left: 23.3%;
+}
+
+th{
+  /* border: 1px solid black; */
+  width: 22.5em;
+}
+
+button{
+  width: 22.5em;
+  height: 30em;
+  background-color: white;
+  border-radius: 10px;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #f8f8ff;
 }
