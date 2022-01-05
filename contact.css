@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+.first-name{
+  font-family: 'Roboto Slab', serif;
+  font-size: 72px;
+  color: #006400;
+  margin-left: 21.25%;
+  /* margin-left: 270px; */
+  margin-right: 765px;
+}
+
+.last-name{
+  font-family: 'Roboto Slab', serif;
+  font-size: 72px;
+  color: #8b4513;
+  margin-left: 38.5%;
+  /* margin-left: 494px; */
+  margin-top: -169px;
+  /* margin-right: 800px; */
+}
+
+.divider{
+  font-family: 'Roboto Slab', serif;
+  font-size: 72px;
+  color: #000000;
+  margin-left: 55.5%;
+  /* margin-left: 494px; */
+  margin-top: -169px;
+  /* margin-right: 800px; */
+}
+
+.list-item-name{
+  font-family: 'Roboto Slab', serif;
+  font-size: 72px;
+  color: #0077be;
+  margin-left: 57.5%;
+  /* margin-left: 494px; */
+  margin-top: -13.1%;
+  /* margin-right: 800px; */
+}
+
+.navigation-bar{
+  height: 35px;
+  width: 420px;
+  margin-left: 21.75%;
+  /* margin-left: 278px; */
+  margin-top: -5%;
+}
+
+ul{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background colour: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 16px;
+}
+
+a {
+  color: black;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+img{
+  margin-left: 22.5%;
+  margin-top: 40px;
+  margin-bottom: 3px;
+  width: 40px;
+  height: 40px;
+}
+
+.text{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  margin-left: 340px;
+  margin-top: -38px;
+}
